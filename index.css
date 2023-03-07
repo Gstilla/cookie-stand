@@ -1,0 +1,27 @@
+
+.Fish {
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 500px;
+    
+}
+
+body {background-color: rgb(1, 255, 187);}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, footer {
+    padding: 100px;
+    margin: 0;
+  }
+  
+  a {
+    color: rgb(255, 11, 11);
+    font-Family: "Oswald";
+    text-decoration: none;
+  }

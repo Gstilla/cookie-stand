@@ -1,0 +1,59 @@
+#table {
+
+    background-color: rgba(127, 254, 0, 0.799);
+    border: solid rgb(0, 0, 154) 5px;
+
+
+}
+
+#new-location-form{
+
+    background-color: rgb(127, 254, 0, 0.799);
+    width: 255px;
+
+    border:solid rgb(0, 0, 154) 5px;
+}
+#tfoot{
+    background-color: rgb(183, 0, 255);
+}
+
+
+body {background-color: rgb(3, 105, 51);}
+
+h1 {
+    font-family: "Playfair Display", 'Times New Roman', Times, serif;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+  }
+  
+  input {
+    display: block;
+  }
+  
+  fieldset {
+    width: 220px;
+    padding: 15px;
+  }
+
+  body {background-color: rgb(1, 255, 187);}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1, footer {
+    padding: 100px;
+    margin: 0;
+  }
+  
+  a {
+    color: rgb(255, 11, 11);
+    font-Family: "Oswald";
+    text-decoration: none;
+  }
+  
