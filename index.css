@@ -37,7 +37,11 @@ li a {
   padding: 30px 60px;
   text-decoration: none;
 }
-
+ul {
+    
+  position: sticky;
+  top: 0;
+}
 li a:hover {
   background-color: #ee0c0c;
 }
