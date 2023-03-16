@@ -123,12 +123,15 @@ var Lima = new Store('Lima', 3, 24, 1.2);
 var Seattle = new Store('Seattle', 11, 38, 3.7);
 var Dubai = new Store('Dubai', 20, 38, 2.3);
 var Paris = new Store('Paris', 2, 16, 4.6);
+var Memphis = new Store('Memphis', 23, 65, 6.3);
 
 Tokyo.render();
 Lima.render();
 Seattle.render();
 Dubai.render();
 Paris.render();
+Memphis.render();
+
 
 
 

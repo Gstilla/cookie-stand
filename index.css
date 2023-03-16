@@ -1,9 +1,10 @@
 h1 {
   font-family:Lucida Handwriting;
-  font-size: 100px;
+  font-size:150px;
   color: aquamarine;
   text-align: center;
 }
+
 
   
 
@@ -11,7 +12,7 @@ h1 {
   h3 {
     font-family:Lucida Handwriting;
     font-size: 40px;
-    color: aquamarine;
+    color: #7fffd4;
     text-align: center;
     text-shadow: #ee0c0c;
   }
@@ -108,3 +109,107 @@ justify-content: center;
     border-collapse: collapse;
     width: 100%;
   }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    padding: 10px;
+    background: #0a9872;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .leftcolumn {  
+    background-color: #0a9872; 
+    float: left;
+    width: 75%;
+  }
+  
+
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: solid #0a9872;
+    padding-left: 6px;
+  }
+  
+
+  .fakeimg {
+    background-color: #7fffd4;;
+    width: 100%;
+    padding: 60px;
+  }
+  
+  
+  .card {
+    background-color: #0a9872;;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .footer {
+    padding: 10px;
+    text-align: center;
+    background:#0a9872 ;
+    margin-top: 10px;
+  }
+  
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+
+.closebtn {
+  float: right;
+  font-size: 100px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.closebtn:hover {
+  color: #ff0000;
+
+}
+
+.Virus {
+  
+  box-sizing: border-box;
+  padding: 100px;
+  width: 900px;
+  background-color: red;
+  color: black;
+  position:relative;
+  height: 100%;
+  width:100;
+
+  position:sticky;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+
+}
+  
+  
